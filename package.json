@@ -1,0 +1,44 @@
+{
+  "name": "yynyc-cli",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "description": "A simple init for YYNYC scaffolding  projects.",
+  "bin": {
+    "yynyc-cli": "./bin/yynyc-cli",
+    "yynyc": "./bin/yynyc-cli"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:tigerandgirl/yynyc-cli.git"
+  },
+  "keywords": [
+    "yynyc",
+    "yynyc-cli",
+    "tool",
+    "yonyou",
+    "fe"
+  ],
+  "author": "Kvkens (yueming@yonyou.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tigerandgirl/yynyc-cli/issues"
+  },
+  "homepage": "https://github.com/tigerandgirl/yynyc-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cli-color": "^1.4.0",
+    "download-git-repo": "^1.1.0",
+    "fs-extra": "^7.0.1",
+    "glob": "^7.1.3",
+    "inquirer": "^6.2.1",
+    "minimist": "^1.2.0",
+    "path-exists": "^3.0.0",
+    "request": "^2.88.0",
+    "single-line-log": "^1.1.2",
+    "str-format": "^1.0.1"
+  },
+  "devDependencies": {
+    "release-script": "^1.0.2"
+  }
+}
